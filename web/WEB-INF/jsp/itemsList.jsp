@@ -33,7 +33,6 @@
 	<td>${item.detail }</td>
 	
 	<td><a href="${pageContext.request.contextPath }/items/editItems.action?id=${item.id}">修改</a></td>
-
 </tr>
 </c:forEach>
 
